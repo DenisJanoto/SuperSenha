@@ -7,21 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC16E2F021FBED11004AEE81 /* ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC16E2EF21FBED11004AEE81 /* ViewController1.swift */; };
 		BCBFA18E21FBC55E00536831 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBFA18D21FBC55E00536831 /* AppDelegate.swift */; };
-		BCBFA19021FBC55E00536831 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBFA18F21FBC55E00536831 /* ViewController.swift */; };
 		BCBFA19321FBC55E00536831 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCBFA19121FBC55E00536831 /* Main.storyboard */; };
 		BCBFA19521FBC55F00536831 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCBFA19421FBC55F00536831 /* Assets.xcassets */; };
 		BCBFA19821FBC55F00536831 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCBFA19621FBC55F00536831 /* LaunchScreen.storyboard */; };
+		BCBFA1AC21FBD09A00536831 /* PasswordsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBFA1AB21FBD09A00536831 /* PasswordsViewController.swift */; };
+		BCBFA1AE21FBD20900536831 /* SecureTipsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBFA1AD21FBD20900536831 /* SecureTipsViewController.swift */; };
+		BCBFA1B021FBD28500536831 /* PasswordGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBFA1AF21FBD28500536831 /* PasswordGenerator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BC16E2EF21FBED11004AEE81 /* ViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController1.swift; sourceTree = "<group>"; };
 		BCBFA18A21FBC55E00536831 /* SuperSenha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperSenha.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCBFA18D21FBC55E00536831 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BCBFA18F21FBC55E00536831 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BCBFA19221FBC55E00536831 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BCBFA19421FBC55F00536831 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BCBFA19721FBC55F00536831 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BCBFA19921FBC55F00536831 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCBFA1AB21FBD09A00536831 /* PasswordsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordsViewController.swift; sourceTree = "<group>"; };
+		BCBFA1AD21FBD20900536831 /* SecureTipsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureTipsViewController.swift; sourceTree = "<group>"; };
+		BCBFA1AF21FBD28500536831 /* PasswordGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordGenerator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +61,14 @@
 			isa = PBXGroup;
 			children = (
 				BCBFA18D21FBC55E00536831 /* AppDelegate.swift */,
-				BCBFA18F21FBC55E00536831 /* ViewController.swift */,
 				BCBFA19121FBC55E00536831 /* Main.storyboard */,
+				BC16E2EF21FBED11004AEE81 /* ViewController1.swift */,
 				BCBFA19421FBC55F00536831 /* Assets.xcassets */,
 				BCBFA19621FBC55F00536831 /* LaunchScreen.storyboard */,
 				BCBFA19921FBC55F00536831 /* Info.plist */,
+				BCBFA1AB21FBD09A00536831 /* PasswordsViewController.swift */,
+				BCBFA1AD21FBD20900536831 /* SecureTipsViewController.swift */,
+				BCBFA1AF21FBD28500536831 /* PasswordGenerator.swift */,
 			);
 			path = SuperSenha;
 			sourceTree = "<group>";
@@ -135,8 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BCBFA19021FBC55E00536831 /* ViewController.swift in Sources */,
+				BC16E2F021FBED11004AEE81 /* ViewController1.swift in Sources */,
+				BCBFA1AC21FBD09A00536831 /* PasswordsViewController.swift in Sources */,
 				BCBFA18E21FBC55E00536831 /* AppDelegate.swift in Sources */,
+				BCBFA1B021FBD28500536831 /* PasswordGenerator.swift in Sources */,
+				BCBFA1AE21FBD20900536831 /* SecureTipsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,7 +301,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.senha.SuperSenha;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -306,7 +318,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.senha.SuperSenha;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
